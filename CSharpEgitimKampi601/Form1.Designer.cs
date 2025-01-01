@@ -30,16 +30,16 @@
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtCustomerId = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.txtCustomerName = new System.Windows.Forms.TextBox();
+			this.txtCustomerCity = new System.Windows.Forms.TextBox();
+			this.txtCustomerSurName = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.textBox6 = new System.Windows.Forms.TextBox();
+			this.txtCustomerPrice = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.button2 = new System.Windows.Forms.Button();
@@ -66,12 +66,12 @@
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Müşteri Adı";
 			// 
-			// textBox1
+			// txtCustomerId
 			// 
-			this.textBox1.Location = new System.Drawing.Point(126, 13);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(167, 22);
-			this.textBox1.TabIndex = 2;
+			this.txtCustomerId.Location = new System.Drawing.Point(126, 13);
+			this.txtCustomerId.Name = "txtCustomerId";
+			this.txtCustomerId.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerId.TabIndex = 2;
 			// 
 			// button1
 			// 
@@ -94,26 +94,26 @@
 			this.dataGridView1.Size = new System.Drawing.Size(766, 379);
 			this.dataGridView1.TabIndex = 4;
 			// 
-			// textBox2
+			// txtCustomerName
 			// 
-			this.textBox2.Location = new System.Drawing.Point(126, 46);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(167, 22);
-			this.textBox2.TabIndex = 5;
+			this.txtCustomerName.Location = new System.Drawing.Point(126, 46);
+			this.txtCustomerName.Name = "txtCustomerName";
+			this.txtCustomerName.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerName.TabIndex = 5;
 			// 
-			// textBox3
+			// txtCustomerCity
 			// 
-			this.textBox3.Location = new System.Drawing.Point(126, 114);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(167, 22);
-			this.textBox3.TabIndex = 9;
+			this.txtCustomerCity.Location = new System.Drawing.Point(126, 114);
+			this.txtCustomerCity.Name = "txtCustomerCity";
+			this.txtCustomerCity.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerCity.TabIndex = 9;
 			// 
-			// textBox4
+			// txtCustomerSurName
 			// 
-			this.textBox4.Location = new System.Drawing.Point(126, 81);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(167, 22);
-			this.textBox4.TabIndex = 8;
+			this.txtCustomerSurName.Location = new System.Drawing.Point(126, 81);
+			this.txtCustomerSurName.Name = "txtCustomerSurName";
+			this.txtCustomerSurName.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerSurName.TabIndex = 8;
 			// 
 			// label3
 			// 
@@ -140,12 +140,12 @@
 			this.textBox5.Size = new System.Drawing.Size(167, 22);
 			this.textBox5.TabIndex = 13;
 			// 
-			// textBox6
+			// txtCustomerPrice
 			// 
-			this.textBox6.Location = new System.Drawing.Point(126, 154);
-			this.textBox6.Name = "textBox6";
-			this.textBox6.Size = new System.Drawing.Size(167, 22);
-			this.textBox6.TabIndex = 12;
+			this.txtCustomerPrice.Location = new System.Drawing.Point(126, 154);
+			this.txtCustomerPrice.Name = "txtCustomerPrice";
+			this.txtCustomerPrice.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerPrice.TabIndex = 12;
 			// 
 			// label5
 			// 
@@ -204,17 +204,17 @@
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.textBox5);
-			this.Controls.Add(this.textBox6);
+			this.Controls.Add(this.txtCustomerPrice);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label6);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox4);
+			this.Controls.Add(this.txtCustomerCity);
+			this.Controls.Add(this.txtCustomerSurName);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label4);
-			this.Controls.Add(this.textBox2);
+			this.Controls.Add(this.txtCustomerName);
 			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtCustomerId);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "Form1";
@@ -229,16 +229,16 @@
 
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtCustomerId;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.DataGridView dataGridView1;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.TextBox txtCustomerName;
+		private System.Windows.Forms.TextBox txtCustomerCity;
+		private System.Windows.Forms.TextBox txtCustomerSurName;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.TextBox textBox5;
-		private System.Windows.Forms.TextBox textBox6;
+		private System.Windows.Forms.TextBox txtCustomerPrice;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Button button2;
