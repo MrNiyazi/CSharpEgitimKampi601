@@ -38,13 +38,13 @@
 			this.txtCustomerSurName = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
-			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.txtCustomerPrice = new System.Windows.Forms.TextBox();
+			this.txtCustomerShoppingCart = new System.Windows.Forms.TextBox();
+			this.txtCustomerBalance = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
+			this.btnCustomerCreate = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -133,19 +133,19 @@
 			this.label4.TabIndex = 6;
 			this.label4.Text = "Müşteri Soyadı";
 			// 
-			// textBox5
+			// txtCustomerShoppingCart
 			// 
-			this.textBox5.Location = new System.Drawing.Point(126, 187);
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(167, 22);
-			this.textBox5.TabIndex = 13;
+			this.txtCustomerShoppingCart.Location = new System.Drawing.Point(126, 187);
+			this.txtCustomerShoppingCart.Name = "txtCustomerShoppingCart";
+			this.txtCustomerShoppingCart.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerShoppingCart.TabIndex = 13;
 			// 
-			// txtCustomerPrice
+			// txtCustomerBalance
 			// 
-			this.txtCustomerPrice.Location = new System.Drawing.Point(126, 154);
-			this.txtCustomerPrice.Name = "txtCustomerPrice";
-			this.txtCustomerPrice.Size = new System.Drawing.Size(167, 22);
-			this.txtCustomerPrice.TabIndex = 12;
+			this.txtCustomerBalance.Location = new System.Drawing.Point(126, 154);
+			this.txtCustomerBalance.Name = "txtCustomerBalance";
+			this.txtCustomerBalance.Size = new System.Drawing.Size(167, 22);
+			this.txtCustomerBalance.TabIndex = 12;
 			// 
 			// label5
 			// 
@@ -185,26 +185,27 @@
 			this.button3.Text = "Güncelle";
 			this.button3.UseVisualStyleBackColor = false;
 			// 
-			// button4
+			// btnCustomerCreate
 			// 
-			this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-			this.button4.Location = new System.Drawing.Point(31, 274);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(195, 35);
-			this.button4.TabIndex = 16;
-			this.button4.Text = "Ekle";
-			this.button4.UseVisualStyleBackColor = false;
+			this.btnCustomerCreate.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.btnCustomerCreate.Location = new System.Drawing.Point(31, 274);
+			this.btnCustomerCreate.Name = "btnCustomerCreate";
+			this.btnCustomerCreate.Size = new System.Drawing.Size(195, 35);
+			this.btnCustomerCreate.TabIndex = 16;
+			this.btnCustomerCreate.Text = "Ekle";
+			this.btnCustomerCreate.UseVisualStyleBackColor = false;
+			this.btnCustomerCreate.Click += new System.EventHandler(this.btnCustomerCreate_Click);
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1077, 411);
-			this.Controls.Add(this.button4);
+			this.Controls.Add(this.btnCustomerCreate);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
-			this.Controls.Add(this.textBox5);
-			this.Controls.Add(this.txtCustomerPrice);
+			this.Controls.Add(this.txtCustomerShoppingCart);
+			this.Controls.Add(this.txtCustomerBalance);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.txtCustomerCity);
@@ -237,13 +238,13 @@
 		private System.Windows.Forms.TextBox txtCustomerSurName;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox textBox5;
-		private System.Windows.Forms.TextBox txtCustomerPrice;
+		private System.Windows.Forms.TextBox txtCustomerShoppingCart;
+		private System.Windows.Forms.TextBox txtCustomerBalance;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button btnCustomerCreate;
 	}
 }
 
